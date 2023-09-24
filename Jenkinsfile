@@ -3,7 +3,7 @@ ports = [ 81, 82, 83]
 pipeline {
     agent {
         node {
-            label 'Built-In Node'
+            label 'Node1'
         }
     }
     parameters {
